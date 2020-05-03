@@ -1,0 +1,28 @@
+{
+  "name": "data_structures_in_js",
+  "version": "1.0.0",
+  "description": "Implementation of Data structures in Javascript ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "babel-node debug index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnushreeBagchi/Data-Structures-in-JS.git"
+  },
+  "author": "Anushree Bagchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnushreeBagchi/Data-Structures-in-JS/issues"
+  },
+  "homepage": "https://github.com/AnushreeBagchi/Data-Structures-in-JS#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "nodemon": "^2.0.3"
+  }
+}
